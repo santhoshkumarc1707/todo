@@ -1,0 +1,26 @@
+.task-card {
+    @apply w-full min-h-full border border-[#dcdcdcd] rounded-xl pr-24 pl-5 pt-4 pb-4 mx-4 my-0;
+}
+
+.task-text {
+    @apply text-lg font-semibold mb-4 ;
+}
+
+.task_card_bottom_line {
+ @apply flex text-center justify-between
+}
+
+.task-delete {
+    @apply w-5 h-5 rounded-full  items-center content-center cursor-pointer transition-all;
+
+}
+
+.delete-icon {
+    @apply w-5 opacity-50 transition-all;
+
+}
+
+.delete-delete :hover .delete-icon {
+    @apply opacity-80
+}
+

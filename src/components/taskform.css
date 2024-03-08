@@ -1,0 +1,22 @@
+.app-header {
+  @apply flex items-center justify-center border;
+}
+
+.task_input {
+  @apply text-sm font-medium bg-green-50 text-black border border-black rounded-md px-2 py-3 w-[100%] ;
+}
+.app-header > form {
+  @apply w-[40%];
+}
+.task_form_buttom_line {
+  @apply flex items-center justify-between ;
+}
+.tag {
+  @apply text-sm font-medium  bg-white rounded-md px-0.5 py-2.5 mr-2.5 mt-1 cursor-pointer border;
+}
+.task_status {
+  @apply text-sm font-medium  border border-[#999] rounded-md w-[120px] h-[40px] p-[0,5px];
+}
+.submit{
+  @apply text-center p-2 ml-2 rounded-md cursor-pointer font-bold border border-orange-300 bg-orange-300 hover:bg-orange-400;
+}

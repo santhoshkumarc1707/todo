@@ -1,0 +1,6 @@
+.task-column-heading{
+    @apply flex items-center;
+}
+.task-column-icon{
+   @apply w-6 mr-2;
+}
